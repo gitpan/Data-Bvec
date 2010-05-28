@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Data-Bvec
-version:            1.00
+version:            1.01
 abstract:           a module to manipulate integer arrays as bit vectors and
 author:
     - Brad Baxter <bmb@galib.uga.edu>
@@ -10,7 +10,8 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Math::Int2Base:  0.03
 no_index:
     directory:
         - t
